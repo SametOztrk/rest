@@ -15,7 +15,6 @@ return [
     '_profiler_router' => [['token'], ['_controller' => 'web_profiler.controller.router::panelAction'], [], [['text', '/router'], ['variable', '/', '[^/]++', 'token'], ['text', '/_profiler']], [], []],
     '_profiler_exception' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::body'], [], [['text', '/exception'], ['variable', '/', '[^/]++', 'token'], ['text', '/_profiler']], [], []],
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::stylesheet'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token'], ['text', '/_profiler']], [], []],
-    'company' => [[], ['_controller' => 'App\\Controller\\CompanyController::index'], [], [['text', '/company']], [], []],
     'companyCreate' => [[], ['_controller' => 'App\\Controller\\CompanyController::createCustomer'], [], [['text', '/']], [], []],
     'show' => [[], ['_controller' => 'App\\Controller\\CustomerController::show'], [], [['text', '/show']], [], []],
     'add_customer' => [[], ['_controller' => 'App\\Controller\\CustomerController::addCustomer'], [], [['text', '/add']], [], []],

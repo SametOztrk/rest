@@ -72,25 +72,5 @@ class Orders
     {
         return $this->quantity;
     }
-
-    public function setQuantity(int $quantity): self
-    {
-        $this->quantity = $quantity;
-
-        return $this;
-    }
-
-    public function getShippingDate()
-    {
-        return $this->shippingDate;
-    }
-
-    public function setShippingDate($shippingDate)
-    {
-        $this->shippingDate = $shippingDate;
-
-        return $this;
-    }
-
     
 }

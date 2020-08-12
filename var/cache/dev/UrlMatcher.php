@@ -13,7 +13,6 @@ return [
         '/_profiler/search_bar' => [[['_route' => '_profiler_search_bar', '_controller' => 'web_profiler.controller.profiler::searchBarAction'], null, null, null, false, false, null]],
         '/_profiler/phpinfo' => [[['_route' => '_profiler_phpinfo', '_controller' => 'web_profiler.controller.profiler::phpinfoAction'], null, null, null, false, false, null]],
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
-        '/company' => [[['_route' => 'company', '_controller' => 'App\\Controller\\CompanyController::index'], null, null, null, false, false, null]],
         '/' => [[['_route' => 'companyCreate', '_controller' => 'App\\Controller\\CompanyController::createCustomer'], null, null, null, false, false, null]],
         '/show' => [[['_route' => 'show', '_controller' => 'App\\Controller\\CustomerController::show'], null, null, null, false, false, null]],
         '/add' => [[['_route' => 'add_customer', '_controller' => 'App\\Controller\\CustomerController::addCustomer'], null, ['POST' => 0], null, false, false, null]],

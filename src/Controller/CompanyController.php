@@ -16,7 +16,7 @@ class CompanyController extends AbstractController
     /**
      * @Route("/", name="companyCreate")
      */
-    public function createCustomer()
+    public function createCompany()
     {
     	
     	$company = new Company();

@@ -19,7 +19,7 @@ class OrderController extends AbstractController
     /**
  	 * @Route("/addOrder", name="add_order", methods={"POST"})
   	*/
-	public function addCustomer(Request $request)
+	public function addOrder(Request $request)
 	{
 			
 		$serializer= $this->get('serializer');

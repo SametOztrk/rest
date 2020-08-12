@@ -27,12 +27,12 @@ class Orders
     */
     private $quantity;
 
-    public function getQuatity(): ?int
+    public function getQuantity(): ?int
     {
         return $this->quantity;
     }
 
-    public function setQuatity($quantity): ?int
+    public function setQuantity($quantity): ?int
     {
         $this->quantity =$quantity;
     }
@@ -68,9 +68,5 @@ class Orders
     }
 
 
-    public function getQuantity(): ?int
-    {
-        return $this->quantity;
-    }
     
 }

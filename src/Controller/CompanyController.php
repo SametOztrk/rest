@@ -23,24 +23,18 @@ class CompanyController extends AbstractController
     }
 
     /**
-     * @Route("/company/createCustomer", name="companyCreate")
+     * @Route("/", name="companyCreate")
      */
     public function createCustomer()
     {
-    	/*
+    	
     	$company = new Company();
         $company->setTitle('A');
 
-        $customer = new Customer();
-        $customer->setName('First Customer');
-        $customer->setCompany($company);
-
         $entityManager = $this->getDoctrine()->getManager();
         $entityManager->persist($company);
-        $entityManager->persist($customer);
         $entityManager->flush();
 
-*/
         return new Response("basarılı");
 
     }

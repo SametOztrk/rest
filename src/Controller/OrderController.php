@@ -52,7 +52,7 @@ class OrderController extends AbstractController
 						"id"=>$order->getId(),
 						"quantity"=>$order->getQuantity(),
 						"adress"=>$order->getAdress(),
-						"shipping_date"=>$order->getDate()
+						"shipping_date"=>$order->getShippingDate()
 				];
 			},$order)
 
